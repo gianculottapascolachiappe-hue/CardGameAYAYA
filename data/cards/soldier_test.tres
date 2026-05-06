@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://dkv12c2dg6ujh"]
+
+[ext_resource type="Script" uid="uid://cbde5roo71xh4" path="res://data/cards/card_data.gd" id="1_6f6jy"]
+[ext_resource type="Texture2D" uid="uid://diwxe7fm47s2o" path="res://assets/placeholders/Soldier_TEST.png" id="1_suwje"]
+
+[resource]
+script = ExtResource("1_6f6jy")
+card_name = "Soldier_TEST"
+mana_cost = {
+"B": 0,
+"G": 0,
+"R": 0,
+"U": 0,
+"W": 1,
+"generic": 0
+}
+types = Array[String](["Creature"])
+subtypes = Array[String](["Human", "Knight"])
+power = 1
+toughness = 1
+card_texture = ExtResource("1_suwje")
+metadata/_custom_type_script = "uid://cbde5roo71xh4"

@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxvv17ay1qrxj"]
+
+[ext_resource type="Script" uid="uid://b72al2d3b0p2m" path="res://scripts/cards/card_visual.gd" id="1_45qsb"]
+[ext_resource type="Texture2D" uid="uid://diwxe7fm47s2o" path="res://assets/placeholders/Soldier_TEST.png" id="2_0qqw3"]
+
+[node name="Card" type="Control"]
+custom_minimum_size = Vector2(150, 210)
+layout_mode = 3
+anchors_preset = 0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+script = ExtResource("1_45qsb")
+
+[node name="CardFrame" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_0qqw3")
+expand_mode = 1
+stretch_mode = 5
