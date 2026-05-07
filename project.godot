@@ -17,3 +17,7 @@ config/features=PackedStringArray("4.5", "Forward Plus")
 [autoload]
 
 EventBus="*res://autoload/event_bus.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"
